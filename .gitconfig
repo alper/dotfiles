@@ -1,0 +1,54 @@
+[user]
+	name = Alper Çugun
+	email = github@alper.nl
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = auto
+
+[alias]
+        ci = commit
+        co = checkout
+        df = diff
+        st = status
+        stat = status
+        br = branch
+        lg = log --oneline --graph --decorate
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+
+        ignore = update-index --assume-unchanged
+        unignore = update-index --no-assume-unchanged
+
+        unstage = reset HEAD
+        uncommit = reset -soft HEAD^
+[core]
+	pager = less -SR
+	excludesfile = /Users/alper/.gitignore_global
+
+[help]
+        autocorrect = -1
+[merge]
+	tool = opendiff
+        conflictstyle = diff3
+[merge "tool"]
+	path = /Applications/p4merge.app/Contents/MacOS/p4merge
+[credential]
+	helper = osxkeychain
+[push]
+	default = current
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[branch]
+	autosetuprebase = always
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
