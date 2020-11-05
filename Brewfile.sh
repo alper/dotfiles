@@ -28,7 +28,7 @@ brew install postgresql
 brew install pyenv
 brew install python
 brew install ripgrep
-brew install rust
+brew install rustup
 brew install the_silver_searcher
 brew install wget
 brew install youtube-dl
