@@ -33,10 +33,10 @@ brew install the_silver_searcher
 brew install wget
 brew install youtube-dl
 
-brew tap caskroom/fonts
-brew cask install font-iosevka
-brew cask install font-iosevka-slab
+brew tap homebrew/cask-fonts
+brew install --cask font-iosevka
+brew install --cask font-iosevka-slab
 
-brew cask install java
-brew cask install menumeters
-brew cask install qlmarkdown
+brew install --cask java
+brew install --cask menumeters
+brew install --cask qlmarkdown
