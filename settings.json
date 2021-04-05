@@ -1,0 +1,70 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.openFoldersInNewWindow": "on",
+    "editor.fontSize": 19,
+    "editor.fontFamily": "Iosevka Term, Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.pyc": true,
+        "**/__pycache__": true
+    },
+    "material-icon-theme.showUpdateMessage": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "explorer.confirmDelete": false,
+    "markdown.extension.toc.levels": "1..6",
+    "markdown.extension.toc.unorderedList.marker": "-",
+    "markdown.extension.toc.orderedList": false,
+    "markdown.extension.toc.plaintext": false,
+    "markdown.extension.toc.updateOnSave": true,
+    "markdown.extension.toc.githubCompatibility": false,
+    "markdown.extension.toc.downcaseLink": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "markdown.extension.orderedList.marker": "ordered",
+    "markdown.extension.italic.indicator": "*",
+    "markdown.extension.tableFormatter.normalizeIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "calva.paredit.defaultKeyMap": "strict",
+    "calva.prettyPrintingOptions": {
+        "enabled": true,
+        "printEngine": "pprint",
+        "width": 120,
+        "maxLength": 50
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "html.format.enable": false,
+    "files.defaultLanguage": "markdown",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
