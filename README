@@ -1,8 +1,9 @@
 These are my dotfiles.
 
 
-TODO 
+## TODO 
 
 * Document how to set the font for Terminal.app
+  * Iosevka Term 19pt
 * Document how to set the font for Code
-* Copy basic Code settings?
+  * Documented in the `settings.json` file
