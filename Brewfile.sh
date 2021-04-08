@@ -3,6 +3,7 @@ brew tap heroku/brew
 brew tap osx-cross/avr
 brew tap px4/px4
 
+brew install awscli
 brew install clementtsang/bottom/bottom
 brew install clang-format
 brew install cloc
@@ -12,6 +13,7 @@ brew install exa
 brew install fd
 brew install ffmpeg
 brew install fish
+brew install fzf
 brew install gcc
 brew install git
 brew install go
