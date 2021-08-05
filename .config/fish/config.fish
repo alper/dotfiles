@@ -5,6 +5,7 @@ set -x LANG en_US.UTF-8
 # https://github.com/oh-my-fish/theme-bobthefish
 set -g theme_date_format "+%d %H:%M"
 set -g theme_date_timezone Europe/Berlin
+set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 
 
 # Pyenv provided by: https://github.com/oh-my-fish/plugin-pyenv
