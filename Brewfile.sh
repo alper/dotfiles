@@ -4,6 +4,7 @@ brew tap osx-cross/avr
 brew tap px4/px4
 
 brew install awscli
+brew install bottom
 brew install clementtsang/bottom/bottom
 brew install clang-format
 brew install cloc
@@ -16,6 +17,7 @@ brew install fish
 brew install fzf
 brew install gcc
 brew install git
+brew install gitui
 brew install go
 brew install heroku/brew/heroku
 brew install highlight
@@ -31,6 +33,7 @@ brew install pyenv
 brew install python
 brew install ripgrep
 brew install rustup
+brew install starship
 brew install the_silver_searcher
 brew install wget
 brew install youtube-dl
