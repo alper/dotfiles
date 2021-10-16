@@ -17,6 +17,7 @@
         sw = switch
         stat = status
         br = branch
+	re = restore
         lg = log --oneline --graph --decorate
         hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
         type = cat-file -t
