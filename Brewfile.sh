@@ -41,6 +41,7 @@ brew install youtube-dl
 brew tap homebrew/cask-fonts
 brew install --cask font-iosevka
 brew install --cask font-iosevka-slab
+brew install --cask font-iosevka-nerd-font
 
 brew install --cask java
 brew install --cask menumeters
