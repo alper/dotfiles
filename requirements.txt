@@ -27,6 +27,7 @@ spacy
 starlette
 sympy
 tensorflow
+things-cli
 torch
 tornado
 trio
