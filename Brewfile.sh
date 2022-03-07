@@ -22,6 +22,7 @@ brew install go
 brew install heroku/brew/heroku
 brew install highlight
 brew install imagemagick
+brew install jless
 brew install jq
 brew install leiningen
 brew install lua
