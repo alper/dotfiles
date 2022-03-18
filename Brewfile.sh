@@ -40,6 +40,7 @@ brew install wget
 brew install youtube-dl
 
 brew tap homebrew/cask-fonts
+brew intsall --cask font-jetbrains-mono-nerd-font
 brew install --cask font-iosevka
 brew install --cask font-iosevka-slab
 brew install --cask font-iosevka-nerd-font
