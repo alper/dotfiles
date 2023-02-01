@@ -1,4 +1,3 @@
-brew tap clementtsang/bottom
 brew tap heroku/brew
 brew tap osx-cross/avr
 brew tap px4/px4
@@ -6,7 +5,6 @@ brew tap px4/px4
 brew install awscli
 brew install bat
 brew install bottom
-brew install clementtsang/bottom/bottom
 brew install clang-format
 brew install cloc
 brew install clojure
