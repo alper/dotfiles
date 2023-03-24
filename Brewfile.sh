@@ -11,7 +11,6 @@ brew install bat
 brew install bottom
 brew install clang-format
 brew install cloc
-brew install clojure
 brew install cmake
 brew install curl
 brew install deno
@@ -30,26 +29,20 @@ brew install getcord/tap/spr
 brew install gh
 brew install git
 brew install gitui
-# brew install go
-# brew install heroku/brew/heroku
 brew install helix
 brew install highlight
 brew install ical-buddy
 brew install imagemagick
 brew install jless
 brew install jq
-brew install leiningen
 brew install lua
 brew install make
 brew install ncdu
-brew install node
 brew install openssh
 brew install pipenv
 brew install postgresql
 brew install protobuf
 brew install pulumi
-brew install pyenv
-brew install python
 brew install ripgrep
 brew install rustup
 brew install starship
