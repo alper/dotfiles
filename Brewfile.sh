@@ -1,6 +1,10 @@
-brew tap heroku/brew
-brew tap osx-cross/avr
-brew tap px4/px4
+# TODO
+# Remove all languages and move that to rtx
+# Check Postgres install
+
+# brew tap heroku/brew
+# brew tap osx-cross/avr
+# brew tap px4/px4
 
 brew install awscli
 brew install bat
@@ -50,7 +54,7 @@ brew install rustup
 brew install starship
 brew install the_silver_searcher
 brew install wget
-brew install youtube-dl
+brew install yt-dlp
 
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono-nerd-font
