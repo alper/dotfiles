@@ -31,7 +31,8 @@ brew install gh
 brew install git
 brew install gitui
 # brew install go
-brew install heroku/brew/heroku
+# brew install heroku/brew/heroku
+brew install helix
 brew install highlight
 brew install ical-buddy
 brew install imagemagick
