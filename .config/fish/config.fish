@@ -3,6 +3,8 @@ set -x LANG en_US.UTF-8
 
 set fish_greeting "🐟"
 
+# Prefer fisher because of this: https://github.com/jorgebucaran/fisher/issues/481
+
 # Pyenv provided by: https://github.com/oh-my-fish/plugin-pyenv
 # status --is-interactive; and source (pyenv init -|psub)
 
