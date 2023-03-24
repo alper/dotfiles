@@ -26,7 +26,7 @@ scipy
 spacy
 starlette
 sympy
-tensorflow
+tensorflow-macos
 things-cli
 torch
 tornado
