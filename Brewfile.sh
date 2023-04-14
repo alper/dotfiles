@@ -45,6 +45,7 @@ brew install protobuf
 brew install pulumi
 brew install ripgrep
 brew install rustup
+brew install sd
 brew install starship
 brew install the_silver_searcher
 brew install wget
