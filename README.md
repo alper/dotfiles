@@ -13,3 +13,6 @@ These are my dotfiles.
 
 * Select the previous input source: Ctrl-Command-Space
 * Select next source in Input menu: Ctrl-Shift-Command-Space
+
+# TODO harmonize rectangle shortcuts
+# TODO document spotlight and raycast shortcuts
