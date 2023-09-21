@@ -10,7 +10,7 @@ set fish_greeting "🐟"
 
 
 # fzf provided by: https://github.com/jethrokuan/fzf
-set -U FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-y:execute-silent(echo {} | pbcopy)+abort'"
+set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(code {}),enter:execute(echo {} |tr -d "\\r\\n" | pbcopy; echo {})+abort'"
 
 # Exa functions provided by: https://github.com/wawa19933/fish-exa
 
