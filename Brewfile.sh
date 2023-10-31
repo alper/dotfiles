@@ -22,8 +22,9 @@ brew install gh
 brew install ical-buddy
 brew install imagemagick
 brew install helix
-brew install ripgrep
 brew install jq
+brew install ranger
+brew install ripgrep
 brew install sd
 brew install the_silver_searcher
 brew install wget
