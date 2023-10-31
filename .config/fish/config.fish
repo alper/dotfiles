@@ -1,6 +1,8 @@
 set -x LC_ALL en_US.UTF-8
 set -x LANG en_US.UTF-8
 
+set -S EDITOR
+
 set fish_greeting "🐟"
 
 # Prefer fisher because of this: https://github.com/jorgebucaran/fisher/issues/481
@@ -10,7 +12,7 @@ set fish_greeting "🐟"
 
 
 # fzf provided by: https://github.com/jethrokuan/fzf
-set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(code {}),enter:execute(echo {} |tr -d "\\r\\n" | pbcopy; echo {})+abort'"
+set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(code {}),enter:execute(hx {})'"
 
 # Exa functions provided by: https://github.com/wawa19933/fish-exa
 
