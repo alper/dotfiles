@@ -10,6 +10,7 @@ set fish_greeting "🐟"
 # Pyenv provided by: https://github.com/oh-my-fish/plugin-pyenv
 # status --is-interactive; and source (pyenv init -|psub)
 
+# Git aliases provided by: https://github.com/jhillyerd/plugin-git
 
 # fzf provided by: https://github.com/jethrokuan/fzf
 set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(code {}),enter:execute(hx {})'"
