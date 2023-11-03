@@ -13,7 +13,7 @@ set fish_greeting "🐟"
 # Git aliases provided by: https://github.com/jhillyerd/plugin-git
 
 # fzf provided by: https://github.com/jethrokuan/fzf
-set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(code {}),enter:execute(hx {})'"
+set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(hx {})'"
 
 # Exa functions provided by: https://github.com/wawa19933/fish-exa
 
