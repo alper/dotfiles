@@ -1,3 +1,5 @@
+[editor]
+bufferline = "multiple"
 
 [editor.soft-wrap]
 enable = true
