@@ -19,6 +19,7 @@ brew install fd
 brew install ffmpeg
 brew install fzf
 brew install gh
+brew install git-absorb
 brew install ical-buddy
 brew install imagemagick
 brew install helix
