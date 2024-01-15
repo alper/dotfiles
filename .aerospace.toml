@@ -1,0 +1,76 @@
+
+# Reference: https://github.com/i3/i3/blob/next/etc/config
+
+enable-normalization-flatten-containers = false
+enable-normalization-opposite-orientation-for-nested-containers = false
+
+default-root-container-layout = 'tiles'
+default-root-container-orientation = 'auto'
+
+[mode.main.binding]
+# alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
+
+ctrl-alt-left = 'focus left'
+ctrl-alt-down = 'focus down'
+ctrl-alt-up  = 'focus up'
+ctrl-alt-right = 'focus right'
+
+alt-cmd-left = 'join-with left'
+alt-cmd-down = 'join-with down'
+alt-cmd-up  = 'join-with up'
+alt-cmd-right = 'join-with right'
+
+ctrl-cmd-alt-left = 'move-through left'
+ctrl-cmd-alt-down = 'move-through down'
+ctrl-cmd-alt-up = 'move-through up'
+ctrl-cmd-alt-right = 'move-through right'
+
+alt-shift-f = 'split horizontal'
+alt-shift-v = 'split vertical'
+
+alt-shift-y = 'fullscreen'
+
+alt-shift-b = 'layout v_accordion' # 'layout stacking' in i3
+alt-shift-g = 'layout h_accordion' # 'layout tabbed' in i3
+
+alt-shift-h = 'layout floating tiling' # 'floating toggle' in i3
+alt-shift-n = 'layout tiling'
+alt-shift-m = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
+alt-shift-j = 'layout accordion horizontal vertical'
+alt-shift-comma = 'flatten-workspace-tree'
+
+
+# Not supported, because this command is redundant in AeroSpace mental model.
+# See: https://nikitabobko.github.io/AeroSpace/guide.html#floating-windows
+#alt-space = 'focus toggle_tiling_floating'
+
+# `focus parent`/`focus child` are not yet supported, and it's not clear whether they
+# should be supported at all https://github.com/nikitabobko/AeroSpace/issues/5
+# alt-a = 'focus parent'
+
+alt-1 = 'workspace 1'
+alt-2 = 'workspace 2'
+alt-3 = 'workspace 3'
+alt-4 = 'workspace 4'
+alt-5 = 'workspace 5'
+alt-6 = 'workspace 6'
+
+alt-shift-1 = 'move-node-to-workspace 1'
+alt-shift-2 = 'move-node-to-workspace 2'
+alt-shift-3 = 'move-node-to-workspace 3'
+alt-shift-4 = 'move-node-to-workspace 4'
+alt-shift-5 = 'move-node-to-workspace 5'
+alt-shift-6 = 'move-node-to-workspace 6'
+
+alt-shift-i = 'reload-config'
+
+alt-shift-o = 'mode resize'
+
+[mode.resize.binding]
+h = 'resize width -50'
+j = 'resize height +50'
+alt-shift-z = 'layout tiling'
+k = 'resize height -50'
+l = 'resize width +50'
+enter = 'mode main'
+esc = 'mode main'
