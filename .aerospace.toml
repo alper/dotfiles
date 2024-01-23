@@ -38,15 +38,7 @@ alt-shift-m = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
 alt-shift-j = 'layout accordion horizontal vertical'
 alt-shift-comma = 'flatten-workspace-tree'
 
-
-# Not supported, because this command is redundant in AeroSpace mental model.
-# See: https://nikitabobko.github.io/AeroSpace/guide.html#floating-windows
-#alt-space = 'focus toggle_tiling_floating'
-
-# `focus parent`/`focus child` are not yet supported, and it's not clear whether they
-# should be supported at all https://github.com/nikitabobko/AeroSpace/issues/5
-# alt-a = 'focus parent'
-
+# Setup 6 workspaces to work with (don't use number 0)
 alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
@@ -66,19 +58,20 @@ alt-shift-i = 'reload-config'
 alt-shift-o = 'mode resize'
 
 [mode.resize.binding]
-h = 'resize width -50'
+h = 'resize width +50'
 j = 'resize height +50'
 alt-shift-z = 'layout tiling'
 k = 'resize height -50'
-l = 'resize width +50'
+l = 'resize width -50'
 enter = 'mode main'
 esc = 'mode main'
 
 [workspace-to-monitor-force-assignment]
+# For the use case where I have two screens connected, the second half of the workspaces will be on the non Macbook screen
 
 1 = 'main'
-2 = 'main'
+2 = 'secondary'
 3 = 'main'
 4 = 'secondary'
-5 = 'secondary'
+5 = 'main'
 6 = 'secondary'
