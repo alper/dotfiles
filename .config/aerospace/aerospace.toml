@@ -19,23 +19,23 @@ alt-cmd-down = 'join-with down'
 alt-cmd-up  = 'join-with up'
 alt-cmd-right = 'join-with right'
 
-ctrl-cmd-alt-left = 'move-through left'
-ctrl-cmd-alt-down = 'move-through down'
-ctrl-cmd-alt-up = 'move-through up'
-ctrl-cmd-alt-right = 'move-through right'
+ctrl-cmd-alt-left = 'move left'
+ctrl-cmd-alt-down = 'move down'
+ctrl-cmd-alt-up = 'move up'
+ctrl-cmd-alt-right = 'move right'
 
-alt-shift-f = 'split horizontal'
-alt-shift-v = 'split vertical'
+alt-shift-u = 'split horizontal'
+alt-shift-k = 'split vertical'
 
 alt-shift-y = 'fullscreen'
 
-alt-shift-b = 'layout v_accordion' # 'layout stacking' in i3
-alt-shift-g = 'layout h_accordion' # 'layout tabbed' in i3
+alt-shift-b = 'layout accordion vertical horizontal' # 'layout stacking' in i3
+# alt-shift-g = 'layout h_accordion' # 'layout tabbed' in i3
 
-alt-shift-h = 'layout floating tiling' # 'floating toggle' in i3
-alt-shift-n = 'layout tiling'
+# alt-shift-h = 'layout floating tiling' # 'floating toggle' in i3
+alt-shift-n = 'layout floating tiling'
 alt-shift-m = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
-alt-shift-j = 'layout accordion horizontal vertical'
+# alt-shift-period = 'layout accordion horizontal vertical'
 alt-shift-comma = 'flatten-workspace-tree'
 
 # Setup 6 workspaces to work with (don't use number 0)
