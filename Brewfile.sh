@@ -14,7 +14,7 @@ brew install cloc
 brew install curl
 brew install dog
 brew install duf
-brew install exa
+brew install eza
 brew install fd
 brew install ffmpeg
 brew install fzf
@@ -24,6 +24,7 @@ brew install ical-buddy
 brew install imagemagick
 brew install helix
 brew install jq
+brew install lsd
 brew install ranger
 brew install ripgrep
 brew install sd
