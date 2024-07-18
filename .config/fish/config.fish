@@ -1,9 +1,10 @@
 set -x LC_ALL en_US.UTF-8
 set -x LANG en_US.UTF-8
 
-set -S EDITOR
-
 set fish_greeting "🐟"
+
+set -x NIXPKGS_ALLOW_UNFREE 1
+set -gx EDITOR hx
 
 # Prefer fisher because of this: https://github.com/jorgebucaran/fisher/issues/481
 
@@ -15,6 +16,10 @@ set fish_greeting "🐟"
 # fzf provided by: https://github.com/jethrokuan/fzf
 set -x FZF_DEFAULT_OPTS "--bind 'ctrl-l:execute-silent(qlmanage -p {}),ctrl-r:execute-silent(open -R {}),ctrl-o:execute-silent(open {})+abort,ctrl-e:execute(hx {})'"
 
-# Exa functions provided by: https://github.com/wawa19933/fish-exa
+# Eza functions provided by: https://github.com/plttn/fish-eza
+# set -x EZA_L_OPTIONS --all
+set -x EZA_STANDARD_OPTIONS --long --all
+
+direnv hook fish | source
 
 starship init fish | source
