@@ -12,6 +12,7 @@ brew install bat
 brew install bottom
 brew install brimdata/tap/zq
 brew install btop
+brew install chezmoi
 brew install cloc
 brew install curl
 brew install difftastic
